@@ -45,6 +45,8 @@ spec:
   - match:
     - uri:
         prefix: /demo
+    - uri:
+        prefix: /demo-time
     route:
     - destination:
         host: service
